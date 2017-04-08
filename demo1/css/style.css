@@ -1,0 +1,319 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 44px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 44px;
+  position: relative; }
+  .header h3 {
+    font-weight: 400; }
+  .header i {
+    color: #333;
+    position: absolute;
+    top: 14px;
+    left: 15px; }
+  .header span {
+    color: #333;
+    position: absolute;
+    top: 15px;
+    right: 15px; }
+
+.main {
+  -webkit-flex: 1;
+  overflow: auto; }
+  .main .banner {
+    height: 145px; }
+    .main .banner img {
+      height: 100%;
+      width: 100%; }
+  .main .introduce {
+    padding-left: 15px;
+    padding-right: 15px; }
+    .main .introduce h3 {
+      color: #4f99f2;
+      font-size: 16px;
+      line-height: 40px; }
+    .main .introduce b {
+      font-weight: 400;
+      font-size: 16px; }
+    .main .introduce p {
+      font-size: 14px;
+      padding-left: 20px;
+      line-height: 22px;
+      margin-top: 5px; }
+  .main .title {
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #4f99f2;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px; }
+  .main .img {
+    height: 208px;
+    padding: 21px 105px;
+    border-bottom: 1px solid #e5e5e5; }
+    .main .img img {
+      height: 100%;
+      width: 100%; }
+  .main .head {
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 15px;
+    line-height: 42px;
+    border-bottom: 1px solid #e5e5e5; }
+  .main .product {
+    display: -webkit-flex;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e5e5; }
+    .main .product span {
+      color: #70acf4; }
+    .main .product p {
+      padding-top: 5px; }
+    .main .product .left {
+      -webkit-flex: 1; }
+    .main .product .right {
+      -webkit-flex: 1; }
+  .main .content {
+    display: -webkit-flex;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e5e5e5; }
+    .main .content li {
+      line-height: 18px; }
+    .main .content ul {
+      width: 50%; }
+    .main .content ol {
+      width: 42%;
+      padding-left: 8%; }
+  .main .company {
+    padding: 19px 0 19px 70px;
+    position: relative;
+    font-size: 12px; }
+    .main .company .icon {
+      width: 45px;
+      height: 45px;
+      background: #4f99f2;
+      text-align: center;
+      border-radius: 5px;
+      position: absolute;
+      left: 15px;
+      top: 16px; }
+    .main .company i {
+      font-size: 28px;
+      color: #fff;
+      line-height: 45px; }
+    .main .company p {
+      line-height: 20px; }
+    .main .company a {
+      color: #4f99f2;
+      margin-left: 10px; }
+    .main .company span {
+      color: #666; }
+  .main .actor {
+    font-size: 12px;
+    padding-left: 15px; }
+    .main .actor b {
+      font-weight: 400; }
+    .main .actor span {
+      color: #666; }
+    .main .actor .actor1 {
+      margin-right: 14px; }
+    .main .actor .actor2 {
+      margin-right: 27px; }
+    .main .actor p {
+      line-height: 18px; }
+  .main .map {
+    margin-top: 5px;
+    padding-right: 21px; }
+    .main .map h3 {
+      font-weight: 400;
+      font-size: 12px;
+      padding-left: 15px; }
+    .main .map div {
+      padding-left: 20px;
+      margin-top: 3px; }
+  .main .record {
+    color: #4f99f2;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px; }
+    .main .record h3 {
+      font-size: 16px; }
+    .main .record b {
+      font-weight: 400;
+      font-size: 13px; }
+    .main .record i {
+      font-size: 16px; }
+    .main .record .last {
+      color: #999; }
+    .main .record p {
+      line-height: 25px; }
+  .main .type {
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    text-align: center; }
+    .main .type dl {
+      width: 50%;
+      margin-bottom: 15px; }
+    .main .type dt {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      border: 1px solid #4f99f2;
+      margin: auto;
+      text-align: center; }
+    .main .type i {
+      line-height: 80px;
+      font-size: 43px;
+      color: #4f99f2; }
+    .main .type dd {
+      color: #4f99f2;
+      padding-top: 10px; }
+  .main .approve {
+    position: relative; }
+    .main .approve h3 {
+      font-weight: 400;
+      color: #4f99f2;
+      font-size: 15px;
+      line-height: 40px;
+      text-align: center; }
+    .main .approve div {
+      display: -webkit-flex;
+      margin-top: 2px; }
+    .main .approve .approve1 {
+      width: 40%;
+      padding-left: 10%; }
+    .main .approve .approve2 {
+      width: 50%; }
+    .main .approve p {
+      font-size: 14px; }
+    .main .approve i {
+      color: #4f99f2;
+      font-size: 18px;
+      margin-right: 3px; }
+    .main .approve span {
+      position: absolute;
+      top: 43px;
+      right: 35px;
+      font-size: 16px; }
+  .main .intro h3 {
+    font-weight: 400;
+    color: #4f99f2;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center; }
+  .main .pro {
+    display: -webkit-flex;
+    text-align: center;
+    padding: 5px 50px; }
+    .main .pro dl {
+      -webkit-flex: 1; }
+    .main .pro dt {
+      height: 157px;
+      width: 120px;
+      margin: auto; }
+      .main .pro dt img {
+        width: 100%;
+        height: 100%; }
+    .main .pro dd {
+      padding-top: 10px;
+      font-size: 14px; }
+  .main .state {
+    padding-left: 15px;
+    padding-right: 15px; }
+    .main .state h3 {
+      font-weight: 400;
+      color: #4f99f2;
+      font-size: 15px;
+      line-height: 40px;
+      text-align: center; }
+    .main .state p {
+      text-indent: 2em;
+      font-size: 14px;
+      line-height: 20px; }
+  .main .buy {
+    margin-bottom: 16px; }
+    .main .buy h3 {
+      font-weight: 400;
+      color: #4f99f2;
+      font-size: 15px;
+      line-height: 40px;
+      text-align: center; }
+    .main .buy ul {
+      display: -webkit-flex;
+      text-align: center; }
+      .main .buy ul li {
+        -webkit-flex: 1;
+        font-size: 14px; }
+    .main .buy i {
+      color: #4f99f2;
+      font-size: 18px;
+      margin-right: 3px; }
+  .main .other {
+    line-height: 50px;
+    padding-left: 15px;
+    border-top: 1px solid #e5e5e5;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative; }
+    .main .other i {
+      font-size: 16px;
+      position: absolute;
+      top: 18px;
+      right: 15px; }
+  .main .another {
+    line-height: 50px;
+    text-align: center;
+    color: #4f99f2;
+    border-top: 1px solid #e5e5e5;
+    font-size: 15px; }
+  .main .load {
+    height: 175px;
+    position: relative; }
+  .main #wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden; }
+  .main .some {
+    width: 165%;
+    display: -webkit-flex;
+    padding-left: 3px;
+    padding-bottom: 10px; }
+    .main .some dl {
+      -webkit-flex: 1; }
+    .main .some dt {
+      height: 102px;
+      width: 102px; }
+      .main .some dt img {
+        width: 100%;
+        height: 100%; }
+    .main .some i {
+      font-size: 16px;
+      color: #4f99f2; }
+    .main .some .last {
+      color: #999; }
+    .main .some dd {
+      margin-top: 6px; }
+
+.footer {
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  background: #eee;
+  font-size: 12px;
+  color: #666; }
+
+/*# sourceMappingURL=style.css.map */
