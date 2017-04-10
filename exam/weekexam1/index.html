@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        var arr=[1,5,8,6,5,8],
+            array=[];
+        // 法一
+        function end(arr1){
+            for(var i=0;i<arr1.length;i++){
+                if(array.indexOf(arr1[i])==-1){
+                    array.push(arr1[i]);
+                }
+            };
+            return array;
+        }
+        console.log(end(arr));
+        //法二
+        function result(arr2){
+            arr2.forEach(function(val,i){
+                if(array.indexOf(val)==-1){
+                    array.push(val);
+                }
+            });
+            return array;
+        }
+        console.log(result(arr));
+    </script>
+</body>
+</html>
