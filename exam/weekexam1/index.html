@@ -28,6 +28,18 @@
             return array;
         }
         console.log(result(arr));
+    //法三
+        function last(arr3){
+            arr3.sort();
+            var result=[arr3[0]];
+            for(var i=1;i<arr3.length;i++){
+                if(arr3[i]!=result[result.length-1]){
+                    result.push(arr3[i]);
+                }
+            }
+            return result;
+        }
+        console.log(last(arr));
     </script>
 </body>
 </html>
