@@ -1,0 +1,65 @@
+.wrap {
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.toggle-radio input {
+    display: none;
+}
+
+.toggle-radio input:checked + .track {
+    background-color: #01ff70;
+    border-width: 0;
+}
+.toggle-radio input:checked + .track1 {
+    background-color: #ffffff;
+ 
+}
+.toggle-radio.toggle-radio-danger input:checked + .track {
+    /*background-color: darkred;*/
+
+}
+.toggle-radio.toggle-radio-orange input:checked + .track {
+    /*background-color:#ffdc00;*/
+
+}
+.toggle-radio input:checked + .track .icon {
+    /*left: 24px;*/
+    margin-left: 24px;
+}
+.toggle-radio input:checked + .track1 .icon1 {
+    /*left: 24px;*/
+    margin-left: 0;
+}
+
+.track,.track1 {
+    width: 48px;
+    height: 26px;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    /*position: relative;*/
+}
+
+.icon {
+    /*position: absolute;*/
+    /*left: 0;*/
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-left: 0;
+    -webkit-transition: margin-left .5s;
+}
+.icon1 {
+    /*position: absolute;*/
+    /*left: 0;*/
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-left: 24px;
+    -webkit-transition: margin-left .5s;
+}
