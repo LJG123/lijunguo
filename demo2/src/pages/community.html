@@ -1,0 +1,65 @@
+<div class="row">
+    <ol class="breadcrumb">
+        <li class="active">当前位置:</li>
+        <li class="active"><a href="#">首页</a></li>
+        <li class="active"><a href="#">社区养老</a></li>
+        <li class="active">离休退休</li>
+    </ol>
+</div>
+
+<div class="media">
+    <a class="pull-left" href="#">
+        <!-- src是./不是../-->
+        <img class="media-object" src="./images/photos/img1.png"
+             alt="Media Object">
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading">社区生日会</h4>
+        提供社区五保供养申请的办理指南、注意事项
+    </div>
+</div>
+
+<div>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#introduce" aria-controls="home" role="tab" data-toggle="tab">活动介绍</a></li>
+        <li role="presentation"><a href="#check" aria-controls="profile" role="tab" data-toggle="tab">查看活动</a></li>
+        <li role="presentation"><a href="#summary" aria-controls="messages" role="tab" data-toggle="tab">活动总结</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="introduce">
+            <div class="title">基本信息</div>
+            <p>责任人: <span>李俊果</span> <span>15801319223</span></p>
+            <p>责任人单位：<span>南风里居委会</span></p>
+            <div class="title">请输入栏目名称</div>
+            <input-directive></input-directive>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="check">
+            <div class="title">活动列表</div>
+            <div class="row">
+                <dl class="col-md-4" ui-sref="community.first">
+                    <dt><img src="images/photos/img2.png"></dt>
+                    <dd><b>春暖花开社区生日会</b></dd>
+                    <dd><span>2017年3月15日</span><span>鑫缘小区3号楼2门301</span></dd>
+                </dl>
+                <dl class="col-md-4" ui-sref="community.second">
+                    <dt><img src="images/photos/img2.png"></dt>
+                    <dd><b>春暖花开社区生日会</b></dd>
+                    <dd><span>2017年3月15日</span><span>鑫缘小区3号楼2门301</span></dd>
+                </dl>
+                <dl class="col-md-4" ui-sref="community.third">
+                    <dt><img src="images/photos/img2.png"></dt>
+                    <dd><b>春暖花开社区生日会</b></dd>
+                    <dd><span>2017年3月15日</span><span>鑫缘小区3号楼2门301</span></dd>
+                </dl>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="summary">
+            <div class="title">请输入栏目名称</div>
+            <input-directive></input-directive>
+        </div>
+    </div>
+    <ui-view></ui-view>
+</div>

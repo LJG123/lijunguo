@@ -1,0 +1,45 @@
+/**
+ * Created by ae on 2017/4/26.
+ */
+(function(){
+    var app=angular.module("app",["ui.router"]);
+    app.config(function($stateProvider,$urlRouterProvider){
+        $urlRouterProvider.otherwise("/community");
+        $stateProvider
+            .state({
+                name:"home",
+                url:"/home",
+                templateUrl:"./pages/home.html"
+            })
+            .state({
+                name:"community",
+                url:"/community",
+                templateUrl:"pages/community.html"
+            })
+            .state({
+                name:"community.first",
+                url:"/first",
+                templateUrl:"pages/first.html"
+            })
+            .state({
+                name:"community.second",
+                url:"/second",
+                templateUrl:"pages/second.html"
+            })
+            .state({
+                name:"community.third",
+                url:"/third",
+                templateUrl:"pages/third.html"
+            })
+            .state({
+                name:"organization",
+                url:"/organization",
+                templateUrl:"pages/organization.html"
+            })
+            .state({
+                name:"resident",
+                url:"/resident",
+                templateUrl:"pages/resident.html"
+            })
+    });
+})()

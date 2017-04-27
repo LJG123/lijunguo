@@ -1,0 +1,50 @@
+.media{
+    border-bottom: 8px solid #e1e1e1;
+}
+.media-object{
+    width: 70px;
+    height: 70px;
+}
+.media-body{
+    font-size: 16px;
+    line-height: 50px;
+}
+.media-heading{
+    font-size: 24px;
+    color: #01b0b9;
+    padding-top: 3px;
+}
+
+
+
+.title{
+    line-height: 50px;
+    font-size: 16px;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+.input-file label{
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid #aaa;
+    text-align: center;
+    background: url("../images/photos/img.png") #ccc no-repeat center center;
+}
+.input-file input{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+#check dl b{
+    font-weight: 400;
+}
+#check dl span{
+    color: #999;
+}
+#check dl dd{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
